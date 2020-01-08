@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.analysis.cacheFolderPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.settings.editor": "json"
+}
