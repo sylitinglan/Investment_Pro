@@ -1,6 +1,7 @@
 收集数据相关：
 get_trade_date.py详见头部注释
 joquant_data.py:主要是获取因子，但是付费操作很扎心
+<<<<<<< HEAD
                 最新进展：我得把alpha的接口参数全改了
                 不行了我要死了
                 wq_alpha101
@@ -14,3 +15,11 @@ python scikit-learn包
 开题报告
 文献
 沪深股票收益率
+=======
+
+
+
+毕设待办:
+python datetime包
+python scikit-learn包
+>>>>>>> 22dcf899ec4c4f7068102860b61c2ab9d660281e

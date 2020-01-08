@@ -57,6 +57,10 @@ class valuation_class(object):
 #print(myoption.AM_option())
             
 
+<<<<<<< HEAD
 #再见了
+=======
+
+>>>>>>> 22dcf899ec4c4f7068102860b61c2ab9d660281e
 
 

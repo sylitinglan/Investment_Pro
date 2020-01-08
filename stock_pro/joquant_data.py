@@ -2,6 +2,7 @@ import jqdatasdk
 jqdatasdk.auth('17812137093','Sy16241098')
 from jqdatasdk.alpha101 import *
 import pandas as pd
+<<<<<<< HEAD
 import numpy as np
 import os
 from get_trade_date import get_trade_date
@@ -9,10 +10,17 @@ from get_trade_date import get_trade_date
 STARTDATE='20160825'
 ENDDATE='20170102'
 #ENDDATE='20180101'
+=======
+from get_trade_date import get_trade_date
+
+STARTDATE='20160101'
+ENDDATE='20180101'
+>>>>>>> 22dcf899ec4c4f7068102860b61c2ab9d660281e
 trade_date_list=get_trade_date(STARTDATE,ENDDATE)
 #test_date=create_assist_date("2016-01-01","2020-01-05")
 
 
+<<<<<<< HEAD
 #get worldquant 101 alpha:
 
 for i in range(len(trade_date_list)-1):
@@ -122,4 +130,17 @@ for i in range(len(trade_date_list)-1):
     #factor_path=os.path.join("./factor/{}".format(trade_date_list[i])+'.xlsx')
     #/Users/litinglan/Desktop/Investment_Pro/stock_pro/factor
     a.to_csv('/Users/litinglan/Desktop/Investment_Pro/stock_pro/factor/{}'.format(trade_date_list[i])+'.csv')
+=======
+#get worldquant 101 alpha
+for i in range(len(trade_date_list)-1):
+    df=pd.DataFrame()
+    df.append(alpha_001(trade_date_list[i],'000300.XSHG'))
+    pass
+#我们从一个dataframe中选取一列series1.
+series1=data.pop('day')
+#为df1添加一个列，第一个0我们可以改变选择你想插入的位置，第二个可以选择你想要的名字
+df.insert(0,'series1',series1)
+#对这一列赋值
+#df['series1']=series1
+>>>>>>> 22dcf899ec4c4f7068102860b61c2ab9d660281e
 
